@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Live streaming</title>
+	<style type="text/css">
+		.recording {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="toggleRecording(this);">Stream</button>
+    <video src="" id="video" hidden="true" style="width:480;height:360;" autoplay="true"></video>
+	<canvas id="preview"></canvas>
+	<div id="logger"></div>
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script id="worker1" type="javascript/worker"></script>
+    <script src="/scripts/recorderJs/recorder.js"></script>
+    <script src="/scripts/main.js"></script>
+<script>
+</script>
+</body>
+</html>

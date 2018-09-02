@@ -1,0 +1,26 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": "socket.io test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://abo_assafa@bitbucket.org/casemicesakarya/live-video-streaming-test.git"
+  },
+  "keywords": [
+    "socket.io",
+    "nodejs",
+    "videostreaming"
+  ],
+  "author": "ali-safaya",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/casemicesakarya/live-video-streaming-test#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "socket.io": "^2.1.1"
+  }
+}
